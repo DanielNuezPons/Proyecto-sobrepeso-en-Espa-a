@@ -7,11 +7,23 @@ Este proyecto analiza la evolución del estado nutricional y los hábitos alimen
 Basado en el análisis de correlación de Pearson y visualizaciones regionales:
 
 *   **Cronicidad del IMC:** El Índice de Masa Corporal (IMC) medio nacional se ha mantenido estancado en **26** durante todo el sexenio (2017-2023).
+*   | 2017 (35,27%) | 2020 (30,61%) | 2023 (31,12%) |
+| :---: | :---: | :---: |
+| ![Mapa 2017](img/Mapa_2017.png) | ![Mapa 2020](img/Mapa_2020.png) | ![Mapa 2023](img/Mapa_2023.png) |
 *   **Ruptura del Factor Renta:** La correlación entre el **PIB per cápita** y el consumo alto de ultraprocesados (**ICU_Alto**) ha caído drásticamente de **0,41 (2017)** a **0,16 (2023)** . Esto indica que la renta regional ya no protege contra una mala alimentación.
+*   | Correlación 2017 (r=0,41) | Correlación 2023 (r=0,16) |
+| :---: | :---: |
+| ![PIB 2017](img/Correlación_PIB_ICU_ALTO_2017.png) | ![PIB 2023](img/Correlación_PIB_ICU_Alto_2023.png) |
 *   **Presión sobre el Sistema Público:** Se observa un aumento en la correlación entre las regiones con mayor consumo de ultraprocesados y el porcentaje de **hospitales públicos**, pasando de **0,16 a 0,36**.
+*   | **2017 (r=0,16)** | **2020 (r=0,32)** | **2023 (r=0,36)** |
+| :---: | :---: | :---: |
+| ![Hospitales 2017](img/Correlación_Hospitales_Publicos_ICU_Alto2017.png) | ![Hospitales 2020](img/Correlación_Hospitales_Publicos_ICU_Alto2020.png) | ![Hospitales 2023](img/Correlación_Hospitales_Publicos_ICU_Alto2023.png) |
 *   **Casos Regionales de Éxito y Alerta:**
 *   **Murcia:** Logró una reducción significativa del ICU_Alto, especialmente en jóvenes (16-24 años), bajando del **72,62% al 42,05%**.
 *   **Comunitat Valenciana:** Registró un incremento notable en su indicador de consumo de ultraprocesados, alcanzando el **43,4%** en 2023.
+*   | Evolución Murcia | Evolución Valencia |
+| :---: | :---: |
+| ![Murcia](img/Comunidad_Murcia_evolución.png) | ![Valencia](img/Comunidad_Valenciana_evolución.png) 
 
 ##  Metodología Técnica
 
