@@ -10,6 +10,13 @@ Basado en el análisis de correlación de Pearson y visualizaciones regionales:
 *   | 2017 (35,27%) | 2020 (30,61%) | 2023 (31,12%) |
 | :---: | :---: | :---: |
 | ![Mapa 2017](img/Mapa_2017.png) | ![Mapa 2020](img/Mapa_2020.png) | ![Mapa 2023](img/Mapa_2023.png) |
+#### Detalle por Comunidades Autónomas (Heatmaps)
+Para profundizar en la persistencia territorial, los mapas de calor muestran que el sobrepeso es un problema estructural que no retrocede. Mientras el consumo de ultraprocesados (**ICU_Alto**) fluctúa, el **IMC medio** se mantiene rígido en casi todos los territorios [1].
+
+![Heatmap IMC Medio](img/Heatmap_IMC_Medio_CCAA.png)
+*Figura 1: Mapa de calor que muestra la estabilidad crónica del IMC en torno a 26 por CCAA [1].*
+
+![Heatmap ICU Alto](img/Heatmap_ICU_ALTO_CCAA.png)
 *   **Ruptura del Factor Renta:** La correlación entre el **PIB per cápita** y el consumo alto de ultraprocesados (**ICU_Alto**) ha caído drásticamente de **0,41 (2017)** a **0,16 (2023)** . Esto indica que la renta regional ya no protege contra una mala alimentación.
 *   | Correlación 2017 (r=0,41) | Correlación 2023 (r=0,16) |
 | :---: | :---: |
